@@ -1,0 +1,22 @@
+_________________________
+
+Rewrite README to talk about how it runs (when it's locked in, questionmark + blue light etc).
+
+update comments to better reflect the text.
+
+better comments in result.h
+
+Once all of the main changes are done, put it through astyle.
+_________________________
+
+result.c Line 53, need to mention this in the readme
+game.c Line 103, It shows a questionmark when locked in, would prefer nothing
+game.c Line 24 && 46, I would prefer if I didn't need to initialise the 'error' char and just leave it empty. ' ' perhaps?
+__________________________
+
+DONE IN PREVIOUS PUSH!
+
+Show and compare results have not been merged, a function "Give result" runs both
+conditions added for block vs reload
+shoot is no longer visible when ammo <= 0 (NEED TO PUT INTO README THAT NO INPUT PRIOR IS INTENTIONAL SO YOU KEEP COUNT!)
+cut down the code in game.c by making a function that dealt with locked in code.
